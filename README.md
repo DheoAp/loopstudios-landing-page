@@ -4,6 +4,8 @@
 
 ## Welcome! 👋
 
+Hallo semuanya kali ini saya menyelesaikan challenge dari [Frontend Mentor](https://www.frontendmentor.io) dan saya harap kemampuan saya untuk membuat website terutama dalam design meningkat. Kedepan nya saya akan belajar javascript, Rest API dan reactjs.
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.

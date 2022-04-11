@@ -1,0 +1,136 @@
+@media (min-width: 992px) {
+  /* navbar */
+  .container {
+    padding: 0;
+  }
+  .navbar {
+    left: -104px;
+    padding: 38px 0;
+  }
+  .container.desktop {
+    display: flex;
+    align-items: center;
+    height: 67px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    transform: translateX(0) !important;
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 0;
+    padding-right: 0;
+    transition: none;
+  }
+  .menu h2 {
+    line-height: 0;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    position: static;
+  }
+  .nav {
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 105px;
+  }
+  /* end navbar */
+  .container-fluid.hero {
+    padding-top: 20px;
+    height: 610px;
+  }
+  .hero {
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .immersive-experiences {
+    top: 114px;
+    font-size: 73px;
+    line-height: 72px;
+    padding: 32px 23px;
+    width: 667px;
+  }
+  .text-immersive {
+    width: 100%;
+  }
+  /* section 1 */
+  .section-1 {
+    margin-top: 0;
+    padding-top: 180px;
+  }
+  .section-a img {
+    width: 55%;
+  }
+  .section-b {
+    padding: 62px;
+    background-color: var(--White);
+    position: relative;
+    width: 48%;
+    position: relative;
+    top: -257px;
+    /* border: 1px solid red; */
+    left: 483px;
+  }
+  .section-b .title {
+    text-align: left;
+  }
+  .section-b p {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .content {
+    width: 446px;
+  }
+  .content section {
+    text-align: left;
+    padding: 0;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .img-desktop {
+    display: block;
+  }
+  /* end section 1 */
+
+  /* section 2 */
+  .title-image {
+    margin-top: 344px;
+  }
+  /* end section 2 */
+
+  /* footer */
+  .section-footer-a {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  footer.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer li {
+    display: inline;
+    margin-right: 30px;
+  }
+  .footer img {
+    margin: 0;
+  }
+  .section-footer-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* end footer */
+}
